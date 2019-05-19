@@ -22,7 +22,7 @@ export default function SignUp()  {
           <li>Email Support</li>
           <li>Package Add Ons</li>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary" href="contactme" >Sign Up</button>
+        <button type="button" className="btn btn-lg btn-block btn-primary" href="contact" >Sign Up</button>
       </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -37,7 +37,7 @@ export default function SignUp()  {
           <li>Email support</li>
           <li>Package Add Ons</li>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary" href="contactme">Get Started</button>
+        <button type="button" className="btn btn-lg btn-block btn-primary" href="contact">Get Started</button>
       </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -52,7 +52,7 @@ export default function SignUp()  {
           <li>Email support</li>
           <li>Package Add Ons</li>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary" href="contactme">Contact Me</button>
+        <button type="button" className="btn btn-lg btn-block btn-primary" href="contact">Contact Me</button>
       </div>
     </div>
   </div>
