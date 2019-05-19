@@ -25,6 +25,10 @@ class MyApp extends App {
                 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="/pages/styles.css" />
+            <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"></link>
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             </Head>
             <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                 <a className="navbar-brand" href="#">Perfect 10</a>
@@ -37,10 +41,16 @@ class MyApp extends App {
                     <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="signup">Sign Up <span className="sr-only">(current)</span></a>
+                    <a className="nav-link" href="about">How It Works <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
+                    <a className="nav-link" href="signup">Sign Up <span className="sr-only">(current)</span></a>
+                    </li>  
+                    <li className="nav-item">
                     <a className="nav-link" href="trainers">Trainers <span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="contactme">Contact <span className="sr-only">(current)</span></a>
                     </li>
                 </ul>
                 <form className="form-inline mt-2 mt-md-0">
@@ -49,11 +59,15 @@ class MyApp extends App {
                 </form>
                 </div>
             </nav>
-            <div className="container">
+            <div className="container-fluid lauren"> 
                 <Container>
                     <Component {...pageProps} />
                 </Container>
             </div>
+            <footer className="container">
+        <p className="float-right"><a href="#">Back to top</a></p>
+        <p>© 2019 Perfect 10 Training · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+            </footer>
         </div>
     )
   }

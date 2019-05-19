@@ -2,7 +2,11 @@ import React from 'react';
 
 function Trainers() {
     return (
-        <h1>I am the trainers page</h1>
+        <div>
+        <h1>Meet Your Trainer</h1>
+        <p> Lauren Allen</p>
+        <a href="/">back to home</a>
+        </div>
     )
 }
 

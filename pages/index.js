@@ -1,50 +1,9 @@
 import React from 'react'
 
-
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-        <meta name="description" content=""/>
-        <meta name="author" content=""/>
-        <link rel="icon" href="../../../../favicon.ico"/>
-
-        <title>Perfect 10 Training</title>
-
-        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/"/>
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
-
-        <link href="carousel.css" rel="stylesheet"/>
-    </head>
     
 function Home() {
     return (
 
-    <header>
-        <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a className="navbar-brand" href="/index.js">Perfect 10</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarCollapse">
-            <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-                <a className="nav-link" href="/index.js">Home <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/contact_me.js">Sign Up <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
-                <a className="nav-link" href="/about_me.js">Trainers <span className="sr-only">(current)</span></a>
-            </li>
-            </ul>
-            <form className="form-inline mt-2 mt-md-0">
-            <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
-            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-        </nav>
-    </header>
 
     <main role="main">
 
@@ -61,7 +20,7 @@ function Home() {
                 <div className="carousel-caption text-left">
                 <h1>Comfort</h1>
                 <p>Personalized programs that meet your needs and abilities!</p>
-                <p><a className="btn btn-lg btn-primary" href="../website/signup.html" role="button">Sign Up Today</a></p>
+                <p><a className="btn btn-lg btn-primary" href="signup" role="button">Sign Up Today</a></p>
                 </div>
             </div>
             </div>
@@ -71,7 +30,7 @@ function Home() {
                 <div className="carousel-caption">
                 <h1>Luxuries</h1>
                 <p>Train in the comfort of your own gym!</p>
-                <p><a className="btn btn-lg btn-primary" href="../website/howitworks.html" role="button">How It Works</a></p>
+                <p><a className="btn btn-lg btn-primary" href="about" role="button">How It Works</a></p>
                 </div>
             </div>
             </div>
@@ -81,7 +40,7 @@ function Home() {
                 <div className="carousel-caption text-right">
                 <h1>Ease</h1>
                 <p>Enjoy the ease of walking into the gym with a routine tailored to you!</p>
-                <p><a className="btn btn-lg btn-primary" href="../website/trainers.html" role="button">Meet Your Trainer</a></p>
+                <p><a className="btn btn-lg btn-primary" href="trainers" role="button">Meet Your Trainer</a></p>
                 </div>
             </div>
             </div>
@@ -95,6 +54,64 @@ function Home() {
             <span className="sr-only">Next</span>
         </a>
         </div>
+
+        <div className="row">
+          <div className="col-lg-4">
+            <img className="rounded-circle" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/52158504_10216693458036394_214761803752669184_n.jpg?_nc_cat=100&_nc_ht=scontent-atl3-1.xx&oh=08fb6ea8049f95bbe862debf09eecd6d&oe=5D36DC8B" alt="Generic placeholder image" width="140" height="140"/>
+            <h2>Trainers</h2>
+            <p>Meet your personal trainer Lauren Allen. Lauren has a B.S. degree in Exercise Science from Florida Gulf Coast University with a background in gymnastics and cheerleading, she has experience in sports training, general fitness, and the senior population. With over a year's worth of personal training experience, Lauren is ready to help you reach your fitness goals through online workout programs.</p>
+            <p><a className="btn btn-secondary" href="trainers" role="button">View details »</a></p>
+          </div>
+          <div className="col-lg-4">
+            <img className="rounded-circle" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/56800696_10217059830795484_4153844961395081216_n.jpg?_nc_cat=110&_nc_ht=scontent-atl3-1.xx&oh=2ff01feddf2dc0d666cadf8ceb3ec5b5&oe=5D356C84" alt="Generic placeholder image" width="140" height="140"/>
+            <h2>Programs</h2>
+            <p>Programs are tailored to the client's needs and goals. Right now we offer 4 week, 8 week, and 12 week programs. Inquire today for the best fit for you. </p>
+            <p><a className="btn btn-secondary" href="about" role="button">View details »</a></p>
+          </div>
+          <div className="col-lg-4">
+            <img className="rounded-circle" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Thumbs_Up_Hand_Sign_Emoji_large.png?v=1480481047" alt="Generic placeholder image" width="140" height="140"/>
+            <h2>Sign up</h2>
+            <p>Sign up today to start your journey to a healthy lifestyle with a program set for you by a professional who wants to help YOU!</p>
+            <p><a className="btn btn-secondary" href="signup" role="button">View details »</a></p>
+          </div>
+        </div>
+        <hr className="featurette-divider"></hr>
+
+        <div className="row featurette">
+          <div className="col-md-7">
+            <h2 className="featurette-heading">Testimony <span className="text-muted">Kendra Miller</span></h2>
+            <p className="lead">Lauren is helping me completely change my life by focusing on fitness and overall health. She is the most motivating, encouraging, helpful, and knowledgeable trainer I have ever worked with. She listens to my goals and every workout gets me closer to where I want to be. I am so grateful she is the trainer I was paired with and I will train with her for as long as I can! I tell everyone she is the best!</p>
+          </div>
+          <div className="col-md-5">
+            <img className="featurette-image img-fluid mx-auto" data-src="" height="200px" width="200px"  src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/59039478_10217165468036349_1652222241724694528_o.jpg?_nc_cat=103&_nc_ht=scontent-mia3-2.xx&oh=c8a913a7ce277d1d22d8ad5435a14eb5&oe=5D75723F" data-holder-rendered="true"/>
+          </div>
+        </div>
+        <hr className="featurette-divider"></hr>
+
+        <div className="row featurette">
+          <div className="col-md-7">
+            <h2 className="featurette-heading">Testimony <span className="text-muted">Mimi Hoffer</span></h2>
+            <p className="lead">Lauren really knows how to train and to inspire me! She helps me understand what exercises I am training. She has helped me TREMENDOUSLY!! She also really knows all the muscles in the body and how to stretch them appropriately. She is such a wonderful, positive inspiration! </p>
+          </div>
+          <div className="col-md-5">
+            <img className="featurette-image img-fluid mx-auto" data-src="" height="200px" width="200px"  src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/58374658_10217165464876270_7635539751558184960_o.jpg?_nc_cat=103&_nc_ht=scontent-mia3-2.xx&oh=d276de0ae2178ab680646e7d58706083&oe=5D2F4F3B" data-holder-rendered="true"/>
+          </div>
+        </div>
+
+        <hr className="featurette-divider"></hr>
+
+        <div className="row featurette">
+          <div className="col-md-7">
+            <h2 className="featurette-heading">Testimony <span className="text-muted">Tammy Crews</span></h2>
+            <p className="lead">Lauren has been my trainer since Feb 2018. She is such a positive and bright personality that it has been easy for me to get up twice a week at 4 in the morning to work out with her at 6. I am stronger and feel better for knowing her- a bright young person with a very positive future.</p>
+          </div>
+          <div className="col-md-5">
+            <img className="featurette-image img-fluid mx-auto" data-src="" height="200px" width="200px"   src="https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/58383022_10217165466436309_1589878055529086976_o.jpg?_nc_cat=104&_nc_ht=scontent-mia3-2.xx&oh=a19f081a3c506ca68245d91738193441&oe=5D293BE4" data-holder-rendered="true"/>
+          </div>
+        </div>
+
+        <hr className="featurette-divider"></hr>
+    
     </main>
     );
 }
