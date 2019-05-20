@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
     return (
   <body>
-      <div className="wrapper">
+      <div className="grid">
         <div className="one">
             <h2>2-3 times/week for 4 weeks</h2>
             <p>Start out by trying a short 4 week program guide to kick start your fitness journey. By chosing either 2 or 3 times per week, you can go at your own pace throughout the week.This is a great way to get started or to learn some new exercises.</p>
