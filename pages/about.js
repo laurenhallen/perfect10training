@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-  <body>
+
       <div className="grid">
         <div className="one">
             <h2>2-3 times/week for 4 weeks</h2>
@@ -18,29 +18,29 @@ export default function About() {
         </div>
         <div className="four">
             <h2>Nutrition Guide</h2>
-            <p>Add on nutrition guides are offered to any purchased program. Prices may vary depending on the depth of guidence you wish to recieve. </p>
+            <p>Add on nutrition guides are offered to any purchased program.</p>
                 <li>Basic Nutition</li>
                 <li>Calorie Counting</li>
-                <li>Meal Guide</li>
+                
         </div>
         <div className="five">
             <h2>Extra Workouts</h2>
-            <p>Add on workouts are offered to any purchased program. </p>
+            <p>Add on workouts are offered at cost to any purchased program.</p>
                 <li>Training 4 or 5 times per week</li>
                 <li>Face to Face workout</li>
-                <li></li>
+                <li>Detailed warm up routine</li>
         </div>
         <div className="six">
             <h2>Speciality Workouts</h2>
-            <p>Add on specialty workouts are offered to any purchased program.</p>
+            <p>Add on specialty workouts are offered at cost to any purchased program.</p>
                 <li>Mobility Training</li>
                 <li>Cardio Interval</li>
-                <li>Sport Specific Training</li>
+                <li>Flexibilty and Balance Training</li>
         </div>
 
         </div>
 
 
-</body>
+
     );
 }

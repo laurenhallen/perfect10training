@@ -31,7 +31,7 @@ class MyApp extends App {
             <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             </Head>
             <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                <a className="navbar-brand" href="#">Perfect 10</a>
+                <a className="navbar-brand" href="/">Perfect 10</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -53,10 +53,10 @@ class MyApp extends App {
                     <a className="nav-link" href="contact">Contact <span className="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <form className="form-inline mt-2 mt-md-0">
+                {/* <form className="form-inline mt-2 mt-md-0">
                     <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
                     <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form> */}
                 </div>
             </nav>
             <div className="container-fluid lauren"> 
@@ -66,7 +66,7 @@ class MyApp extends App {
             </div>
             <footer className="container">
         <p className="float-right"><a href="#">Back to top</a></p>
-        <p>© 2019 Perfect 10 Training · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <p>© 2019 Perfect 10 Training · <a href="contact">Contact</a> · </p>
             </footer>
         </div>
     )

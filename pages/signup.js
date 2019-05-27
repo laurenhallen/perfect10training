@@ -12,10 +12,10 @@ export default function SignUp()  {
   <div className="card-deck mb-3 text-center">
     <div className="card mb-4 shadow-sm">
       <div className="card-header">
-        <h4 className="my-0 font-weight-normal">One Month</h4>
+        <h4 className="my-0 font-weight-normal">4 weeks</h4>
       </div>
       <div className="card-body">
-        <h1 className="card-title pricing-card-title">$50 <small className="text-muted">/ 4 weeks</small></h1>
+        <h1 className="card-title pricing-card-title">$30 <small className="text-muted">/ week</small></h1>
         <ul className="list-unstyled mt-3 mb-4">
           <li>8-12 Workouts</li>
           <li>Face to Face Consultations</li>
@@ -27,10 +27,10 @@ export default function SignUp()  {
     </div>
     <div className="card mb-4 shadow-sm">
       <div className="card-header">
-        <h4 className="my-0 font-weight-normal">Two Months</h4>
+        <h4 className="my-0 font-weight-normal">8 weeks</h4>
       </div>
       <div className="card-body">
-        <h1 className="card-title pricing-card-title">$100 <small className="text-muted">/ 8 weeks</small></h1>
+        <h1 className="card-title pricing-card-title">$25 <small className="text-muted">/ week</small></h1>
         <ul className="list-unstyled mt-3 mb-4">
           <li>16-24 Workouts</li>
           <li>Face to Face Consultations</li>
@@ -42,10 +42,10 @@ export default function SignUp()  {
     </div>
     <div className="card mb-4 shadow-sm">
       <div className="card-header">
-        <h4 className="my-0 font-weight-normal">Three Months</h4>
+        <h4 className="my-0 font-weight-normal">12 weeks</h4>
       </div>
       <div className="card-body">
-        <h1 className="card-title pricing-card-title">$150 <small className="text-muted">/ 12 weeks</small></h1>
+        <h1 className="card-title pricing-card-title">$20 <small className="text-muted">/ week</small></h1>
         <ul className="list-unstyled mt-3 mb-4">
           <li>24-36 Workouts</li>
           <li>Face to Face Consultaions</li>

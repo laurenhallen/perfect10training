@@ -5,34 +5,46 @@
 
 .grid{
     display: grid;
-    grid-template-columns:60px 60px;
-    grid-gap: 30px;
-    grid-auto-rows: 60px 60px;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 50px;
+    grid-auto-rows: 45% 45%;
+    margin:10px;
+    border:3px solid black;
+    border-radius: 5px;
+    padding:10px;
+    
 }
-    .one {
-    grid-column: 1;
-    grid-row: 1;
+ .one {
+    border: 2px solid #36f1df;
+    border-radius:3px;
+    padding:5px;
+
   }
-  .two { 
-    grid-column: 2;
-    grid-row: 1;
+ .two { 
+    border: 2px solid #36f1df;
+    border-radius:3px;
+    padding:5px;
   }
   .three {
-    grid-column: 3;
-    grid-row: 1;
+    border: 2px solid #36f1df;
+    border-radius:3px;
+    padding:5px;
   }
   .four {
-    grid-column: 1;
-    grid-row: 2;
+    border: 2px solid #36f1df;
+    border-radius:3px;
+    padding:5px;
   }
   .five {
-    grid-column: 2;
-    grid-row: 2;
+    border: 2px solid #36f1df;
+    border-radius:3px;
+    padding:5px;
   }
   .six {
-    grid-column: 3;
-    grid-row: 2;
-  }
+    border: 2px solid #36f1df;
+    border-radius:3px;
+    padding:5px;
+  } 
 
 body{
     background-color: #25274d;
@@ -42,7 +54,7 @@ body{
     height: 400px;
 }
 .col-md-3{
-    background: #ff9b00;
+    background: #36f1df;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -73,4 +85,37 @@ body{
 }
 .contact-form button:focus{
     box-shadow:none;
+}
+.meet h1{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Mandali', sans-serif;
+}
+.meet h2{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Mandali', sans-serif;
+}
+.meet-grid{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-gap: 10px;
+}
+.meet p1{
+    border:2px solid #36f1df;
+    border-radius: 5px;
+    padding:10px;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+    margin-bottom: 50px;
+}
+.meet p2{
+    border:2px solid #36f1df;
+    border-radius: 5px;
+    padding:10px;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+    margin-bottom: 50px;
 }
