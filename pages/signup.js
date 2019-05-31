@@ -22,7 +22,12 @@ export default function SignUp()  {
           <li>Email Support</li>
           <li>Package Add Ons</li>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary" href="contact" >Sign Up</button>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"></input>
+<input type="hidden" name="hosted_button_id" value="N5VXGT2L8JDPA"></input>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></img>
+      </form>
       </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -37,7 +42,13 @@ export default function SignUp()  {
           <li>Email support</li>
           <li>Package Add Ons</li>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary" href="contact">Get Started</button>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"></input>
+<input type="hidden" name="hosted_button_id" value="NHU5U8EBF9VJ2"></input>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></img>
+</form>
+
       </div>
     </div>
     <div className="card mb-4 shadow-sm">
@@ -52,7 +63,13 @@ export default function SignUp()  {
           <li>Email support</li>
           <li>Package Add Ons</li>
         </ul>
-        <button type="button" className="btn btn-lg btn-block btn-primary" href="contact">Contact Me</button>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick"></input>
+<input type="hidden" name="hosted_button_id" value="RRMXK8SN773ZE"></input>
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></input>
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></img>
+</form>
+
       </div>
     </div>
   </div>
@@ -61,4 +78,3 @@ export default function SignUp()  {
   );
 
 }
-

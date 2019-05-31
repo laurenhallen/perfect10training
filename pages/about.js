@@ -2,7 +2,6 @@ import React from 'react'
 
 export default function About() {
     return (
-
       <div className="grid">
         <div className="one">
             <h2>2-3 times/week for 4 weeks</h2>
@@ -39,8 +38,5 @@ export default function About() {
         </div>
 
         </div>
-
-
-
     );
 }

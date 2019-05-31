@@ -37,7 +37,7 @@ class MyApp extends App {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav mr-auto">
-                    <li className="nav-item active">
+                    <li className="nav-item">
                     <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
@@ -64,10 +64,10 @@ class MyApp extends App {
                     <Component {...pageProps} />
                 </Container>
             </div>
-            <footer className="container">
+            {/* <footer className="container">
         <p className="float-right"><a href="#">Back to top</a></p>
         <p>© 2019 Perfect 10 Training · <a href="contact">Contact</a> · </p>
-            </footer>
+            </footer> */}
         </div>
     )
   }

@@ -5,43 +5,43 @@
 
 .grid{
     display: grid;
+    grid-area: auto;
     grid-template-columns: 30% 30% 30%;
-    grid-gap: 50px;
-    grid-auto-rows: 45% 45%;
+    grid-gap:57px;
+    grid-auto-rows: 50% 50%;
     margin:10px;
     border:3px solid black;
     border-radius: 5px;
-    padding:10px;
-    
+    padding: 20px;
+    padding-bottom: 75px;
 }
  .one {
-    border: 2px solid #36f1df;
+    border: 5px solid #36f1df;
     border-radius:3px;
     padding:5px;
-
   }
  .two { 
-    border: 2px solid #36f1df;
+    border: 5px solid #36f1df;
     border-radius:3px;
     padding:5px;
   }
   .three {
-    border: 2px solid #36f1df;
+    border: 5px solid #36f1df;
     border-radius:3px;
     padding:5px;
   }
   .four {
-    border: 2px solid #36f1df;
+    border: 5px solid #36f1df;
     border-radius:3px;
     padding:5px;
   }
   .five {
-    border: 2px solid #36f1df;
+    border: 5px solid #36f1df;
     border-radius:3px;
     padding:5px;
   }
   .six {
-    border: 2px solid #36f1df;
+    border: 5px solid #36f1df;
     border-radius:3px;
     padding:5px;
   } 

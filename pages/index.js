@@ -15,7 +15,7 @@ function Home() {
         </ol>
         <div className="carousel-inner">
             <div className="carousel-item active carousel-item-left">
-            <img className="first-slide" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/55446927_10216963569869021_2041636476797583360_o.jpg?_nc_cat=108&_nc_ht=scontent-atl3-1.xx&oh=0bd40297667c2f8198e10475d3c09217&oe=5D41FC09" alt="First slide" width="auto"/>
+            <img className="first-slide" src="https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.0-9/61739708_10217413733762837_6643098742188670976_o.jpg?_nc_cat=101&_nc_oc=AQnC_runNrtyEUGSHNdmGfFsvVCZxmFt95BvSNDD4_yvcIj8zrYPf4Mbfxzq3BWRv2M&_nc_ht=scontent.ftpa1-1.fna&oh=457be9cc55beb5bd1c7483f5d7cf1f5e&oe=5D5CBCED" alt="First slide" width="auto"/>
             <div className="container">
                 <div className="carousel-caption text-left">
                 <h1>Comfort</h1>
@@ -25,7 +25,7 @@ function Home() {
             </div>
             </div>
             <div className="carousel-item carousel-item-next carousel-item-left">
-            <img className="second-slide" src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/54728745_10216963570109027_8045256468837957632_o.jpg?_nc_cat=102&_nc_ht=scontent-atl3-1.xx&oh=721689ae65569ab9f9dc60413c848453&oe=5D4D3559" alt="Second slide" width="auto"/>
+            <img className="second-slide" src="https://scontent.ftpa1-2.fna.fbcdn.net/v/t1.0-9/61382017_10217413733602833_3519819157560360960_o.jpg?_nc_cat=100&_nc_oc=AQk3b49rua97jLZ3OGkAARwRQVTWldFPxvU8rHh7Je0T_HGFroqwXtQ4s7x0fkg5wjtOvTCxdbmrgtis27pbLQnE&_nc_ht=scontent.ftpa1-2.fna&oh=436b84e909877f9afa68b915cc1204c9&oe=5D9391C8" alt="Second slide" width="auto"/>
             <div className="container">
                 <div className="carousel-caption">
                 <h1>Luxuries</h1>
